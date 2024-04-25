@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <script src="./app.js" defer></script>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        div{
+            height: 80vh;
+            width:80vw ;
+            position: relative;
+            padding-left: 8vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+        img{
+            height: 500px;
+            width: 700px;
+            position: absolute;
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+        <img src="./pexels-elkhan-ganiyev-15153666.jpg" alt="" class="slider">
+        <img src="./pexels-kuntal-biswas-12548443.jpg" alt="" class="slider">
+        <img src="./pexels-pawel-kalisinski-10181182.jpg" alt="" class="slider">
+        <div>
+            <button onclick="goNext()">Next</button>
+            <button onclick="goprev()">Back</button>
+        </div>
+    </div>
+</body>
+</html>

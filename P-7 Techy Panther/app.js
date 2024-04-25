@@ -1,0 +1,8 @@
+function smoothScroll(target,duration){
+    
+}
+
+
+
+
+

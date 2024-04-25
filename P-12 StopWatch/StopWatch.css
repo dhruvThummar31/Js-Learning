@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conatiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    
+}
+
+
+.clock{
+    color: aliceblue;
+    font-size: 4.5rem;
+
+}
+
+.btn button{
+    width: 100px;
+    color:violet;
+    font-weight: 700;
+    height: 40px;
+    border-radius: 1rem;
+    border: none;
+    margin: 0.3rem;
+
+}
+
+.one{
+    background-color: green;
+    opacity: 0.6;
+}       
+.two{
+    opacity: 0.6;
+    background-color: red;
+}
+.three{
+    opacity: 0.6;
+    background-color: yellow
+}
+:where(.one , .two , .three):hover{
+    opacity: 1;
+    cursor: pointer;
+}

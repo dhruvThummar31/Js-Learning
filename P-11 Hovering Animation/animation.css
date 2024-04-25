@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gilroy';
+    color: white;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+    position: relative;
+}
+
+.elem{
+    height: 120px;
+    width: 100%;
+    padding: 1vw;
+    border-bottom:2px solid white;
+    display: flex;
+}
+.elem h1{
+    font-size: 8vw;
+}
+
+.elem img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+   object-fit: cover;
+   object-position: center;
+    position: absolute;
+    opacity: 0;
+    mix-blend-mode: difference;
+    transition: all ease 0.2s;
+}
+
